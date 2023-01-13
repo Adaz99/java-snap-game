@@ -49,8 +49,6 @@ public class CardGame {
         Card takeOneCard = deckOfCards.get(deckOfCards.size() - 1);
         deckOfCards.remove(deckOfCards.size() - 1);
         System.out.println(takeOneCard);
-
-
         return takeOneCard;
         }
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5353cfa5-ba21-4c59-88f7-ffc849cdf3d4" name="Changes" comment="trying to add a if statement so that when their is a win player must enter snap otherwise misses the snap (currently broken)">
+    <list default="true" id="5353cfa5-ba21-4c59-88f7-ffc849cdf3d4" name="Changes" comment="Got it working so that a player has to enter snap to get the win">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Snap.java" afterDir="false" />
@@ -91,13 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673622216768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Got it working so that a player has to enter snap to get the win">
+      <created>1673623688366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673623688366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created classes trying to store the cards with symbols into an array" />
     <MESSAGE value="stage 2 and 3 basically done want to add 2nd player functionality, e.g. whoever types the word snap first wins" />
     <MESSAGE value="trying to add a if statement so that when their is a win player must enter snap otherwise misses the snap (currently broken)" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to add a if statement so that when their is a win player must enter snap otherwise misses the snap (currently broken)" />
+    <MESSAGE value="Got it working so that a player has to enter snap to get the win" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got it working so that a player has to enter snap to get the win" />
   </component>
 </project>

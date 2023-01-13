@@ -27,8 +27,8 @@ public class Snap extends CardGame {
             Card newCard = dealCard();
             if (firstCard.getSymbol().equals(newCard.getSymbol())) {
                 Scanner scanner = new Scanner(System.in);
+                System.out.println("To draw another card press Enter again:");
                 String playerInput = scanner.nextLine();
-
                 if (playerInput.equals("snap")) {
                     matchingWins = true;
                     System.out.println("SNAP! YOU WON!");
