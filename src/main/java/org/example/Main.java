@@ -1,5 +1,19 @@
-package org.example;public class Main {
+package org.example;
+
+import java.util.ArrayList;
+
+public class Main {
+    private static java.lang.String String;
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Snap snap = new Snap();
+        CardGame game = new CardGame("Snap Game");
+
+        snap.playGame();
+
+
+
+        }
     }
-}
+
+
