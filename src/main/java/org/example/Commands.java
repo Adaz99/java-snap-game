@@ -5,18 +5,14 @@ import java.util.Scanner;
 public class Commands {
     Scanner scanner = new Scanner(System.in);
 
-    // method, which prompts the user to press enter and waits for a input
-    public void playerCard() {
-        String userInput = "";
-        boolean loop = true;
+    // method, which prompts the user to press enter and waits for an input
 
-        while (loop) {
-            userInput = scanner.nextLine();
-            if (!userInput.isEmpty()) {
-                System.out.println("Please press Enter:");
-            } else {
-                loop = false;
-            }
+    public void playerCard() {
+        // if the length is not zero that means the user has typed something and loop continues
+        // until enter is pressed
+        // if it 0 then the user has pressed enter
+        while(scanner.nextLine().length() != 0) {
+            System.out.println("Please press Enter:");
         }
     }
 

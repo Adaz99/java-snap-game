@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Snap snap = new Snap();
         CardGame game = new CardGame("Snap Game");
-
+snap.displayGameRules();
         snap.playGame();
 
 
